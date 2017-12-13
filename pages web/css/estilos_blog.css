@@ -1,0 +1,38 @@
+body {
+	margin: 0;
+	display: flex;
+	justify-content: flex-center;
+	font-family: cursive;
+}
+
+video {
+	position: fixed;  /* se quede fijo la img*/
+	
+	min-width: 50%; /* ancho minimo del 100%*/
+	min-height: 50%;
+	
+	top: 50%;
+	left: 50%;
+	
+	transform: translateX(-50%) translateY(-50%);
+
+
+	z-index: -1;	
+}
+
+main {
+	width: 100%;
+	background: rgba(0,0,0,0.5);
+	color: white ;
+	text-align: center;
+	padding: 2px;
+	margin: 1%;
+}
+
+h1{
+	color: silver ;
+	font-family: monoespaciada;
+	font-weight: bold;
+	font-size: 40px;
+}
+

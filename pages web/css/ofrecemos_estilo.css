@@ -1,0 +1,67 @@
+body{
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+	margin: 0;
+	font-family: monospace;
+}
+
+
+
+
+h1{
+	text-align: center;
+	color: #FA5858 ;
+	font-family: monoespaciada;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+ul li {
+	text-align: left;
+}
+
+ul #derecha  p{
+	color: #D8D8D8;;
+	font-size: 17px;
+}
+
+.info-promo img{
+	width:200px;  /* tamaño img*/
+	height:200px;
+	border-radius: 50%; /* forma de circulo a contenedor*/
+	border: 10px solid #fff; /*borde de img*/
+}
+
+
+
+ul li a{
+	color: #D8D8D8; 	
+	font-size: 25px;
+
+}
+
+ul  #medicos {
+	font-size: 30px;
+	color: #FA5858;
+}
+
+div #derecha {
+	float: right;
+	width: 500px;
+	height: 500px;
+}
+
+div  #comentario{
+	text-align: center;
+	color: #FA5858;
+	font-size: 25px;
+}
+ 
+ .fb-comments{
+	color: #D8D8D8;
+}
+
+
+footer{
+	color: #D8D8D8;
+}
